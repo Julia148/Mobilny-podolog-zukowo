@@ -1,0 +1,335 @@
+body
+{
+	background-color: #F5F5F5;
+	font-size: 18px;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+a
+{
+	text-decoration: none !important;
+}
+
+.nawigacja
+{
+	position: fixed;
+	top: 0;
+	width: 100%;	
+	background-color: #20B2AA;
+	letter-spacing: 2px;
+	border-top: 1px solid #20C0B0;
+	border-bottom: 1px solid #20C0B0;
+	color: #ffffff;
+	z-index: 100;
+	line-height: 1;
+}
+
+.navbar
+{
+	padding: 0;
+	margin: 0;
+	width: 100%;
+}
+
+.naglowek
+{
+	width: 100%;	
+	padding: 5px 0;
+	letter-spacing: 2px;
+	margin-right: 0;
+	margin-left: 0;
+	margin-top: 60px;
+	margin-bottom: 30px;
+	border-bottom: 3px solid #20B2AA;
+	box-shadow: 0 6px 6px -6px #20B2AA;
+	text-align: center;
+	color: #20B2AA;
+	font-size: 44px;
+}
+
+#menuglowne ul > li > a
+{
+	text-decoration: none;
+	font-size: 20px;
+	color: #ffffff;
+}
+
+#menuglowne ul > li
+{
+	padding: 2px 20px ;
+	border-right: 1px solid #ffffff;
+	display: inline-block;
+	cursor: pointer;
+}
+
+
+#ajSlider
+{
+	margin-top: 50px;
+	padding: 0;
+	width: 100%;
+	/*height: 320px;*/
+	height: 60vh;
+	position: relative;
+	box-align: center;
+}
+
+#ajSlider img
+{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+#ajSliderBullets
+{
+	width: 100%;
+	/*margin-bottom: 0;*/
+	position: absolute;	
+	margin-left: 0;
+	margin-right: 0;
+	padding: 0;
+	left: 0 !important;
+}
+
+ul > li:first-child
+{
+	border-left: 1px solid #ffffff;
+}
+
+ul > li:last-child
+{
+	border-right: none !important;
+}
+
+ul > li:hover 
+{
+	background-color: #10a199;
+}
+
+ul > li:hover > a
+{
+	color: white;
+}
+
+.tresc
+{
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 20px;
+}
+
+.tekst
+{
+	text-align: justify;
+}
+
+.tekst img
+{
+	width: 100%;
+	height: auto;
+	box-align: center;
+	margin-bottom: 40px;
+}
+
+.prawe
+{
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.stopka
+{
+	background-color:#20B2AA;
+	border-top: 1px solid #20C0B0;
+	border-bottom: 1px solid #20C0B0;
+	color: #ffffff;
+	text-align: left;
+	margin-top: 80px;
+	padding-bottom: 100px;
+}
+
+ #kontaktstopka
+ {
+	 font-size: 20px;
+	 margin-top: 20px;
+	 letter-spacing: 2px;
+	 padding: 0;
+	 margin-bottom: 10px;
+ }
+
+.photo
+{
+	float: left;
+	padding: 0 20px;
+}
+
+ol
+{
+	list-style-type: square;
+    list-style-position: outside;
+}
+
+ol > li
+{
+	margin-bottom: 10px;
+}
+
+h1
+{
+	color: #20C0B0;
+	font-size: 30px;
+	text-align: left;
+}
+
+.rodzaj
+{
+	float: left;
+	width: 70%;
+	border-right: #20C0B0 1px solid;
+	padding-right: 20px;
+}
+
+.cennik
+{
+	width:100%;
+	border-bottom: #20C0B0 1px dotted;
+	padding: 10px 0;
+}
+
+.cena
+{
+	float: left;
+	width:20%;
+	padding-left: 30px;
+}
+
+#wiecej 	
+{
+	display: none;
+}
+			
+#przycisk	
+{
+	  cursor: pointer;
+	  display: inline-block;
+	  padding: 10px;
+	  color:  #FFFFFF;
+	  font-size: 18px;
+	  background-color:  #20B2AA;
+	  border: 2px solid  #20C0B0;
+	  border-radius: 2px;
+	  margin-top: 20px;
+	  letter-spacing: 2px;
+}
+
+h2
+{
+	font-size: 42px;
+	text-align: center;
+	margin-top: 60px;
+}
+
+#adres
+{
+	text-align: center;
+	font-size: 22px;
+	margin-top: 20px;
+}
+
+#tel
+{
+	font-size: 42px;
+	text-align: center;
+	margin-bottom: 0;
+	color: black;
+}
+
+.logonav
+{
+	float: left;
+	padding: 0;
+}
+
+.logonav img
+{
+	margin-left: 35px;
+	width: 120px !important; 
+	height: 50px !important;
+}
+
+.navbar-brand
+{
+	width: 120px;
+	height: 50px;
+	margin-right: 50px;
+}
+
+.col-xl-4 a
+{
+	text-decoration: none !important;
+	font-size: 18px;
+	color: #ffffff !important;
+}
+
+.col-xl-4 a:visited
+{
+	text-decoration: none !important;
+	font-size: 18px;
+	color: #ffffff !important;
+}
+
+.col-xl-4 a:hover
+{
+	text-decoration: none !important;
+	font-size: 18px;
+	color: #ffffff !important;
+}
+
+.col-lg-12 a
+{
+	text-decoration: none !important;
+	font-size: 18px;
+	color: #ffffff !important;
+}
+
+.col-lg-12 a:visited
+{
+	text-decoration: none !important;
+	font-size: 18px;
+	color: #ffffff !important;
+}
+
+.col-lg-12 a:hover
+{
+	text-decoration: none !important;
+	font-size: 18px;
+	color: #ffffff !important;
+}
+
+#lightbox {
+	position: fixed;
+	z-index: 100;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.7);
+	display: none;
+  }
+  
+  #lightbox.active {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+  
+  #lightbox img {
+	max-width: 95%;
+	max-height: 95%;
+	padding: 4px;
+	/*background-color: #20C0B0;*/
+	border: 2px solid white;
+  }
