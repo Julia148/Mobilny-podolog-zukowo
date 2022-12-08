@@ -10,6 +10,11 @@ body
 	height: 80px;
 }
 
+#ajSlider img
+{
+	height: 80px;
+}
+
 .pierwszy {
 	-webkit-order: 1;
 	order: 1;
