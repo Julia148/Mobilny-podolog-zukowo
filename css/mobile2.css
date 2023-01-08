@@ -69,3 +69,20 @@ body
    -webkit-order: 12;
    order: 12;
    }
+
+   .rodzaj
+{
+	float: left;
+	width: 70%;
+	border-right: #20C0B0 1px solid;
+	padding-right: 5px;
+   text-align: left;
+}
+
+.cena
+{
+	float: left;
+	width:20%;
+	padding-left: 5px;
+   text-align: left;
+}
